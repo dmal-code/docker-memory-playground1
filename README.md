@@ -1,6 +1,6 @@
 On the first look Docker containers seem to induce nearly no overhead, on the contrary they seem to use less memory.
 It is crucial to include the linux COW semantics in order to measure the used container memory. 
-The main goal of this article is to provide an insight of how to measure memory of dockerized applications and the pitfalls 
+The main goal of this article is to provide an insight for how to measure memory of dockerized applications and the pitfalls 
 when doing so. Let us consider the following small go programm:
 
 main.go
