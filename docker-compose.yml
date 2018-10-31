@@ -1,0 +1,13 @@
+version: '2.0'
+
+services:
+  go:
+    environment:
+      APP_ROLE: 'MASTER'
+    image: docker_go
+    volumes:
+      - ./data:/data
+    mem_limit: 128m
+    ports:
+      - 899:8000
+      
